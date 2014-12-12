@@ -35,7 +35,6 @@ def vecmul(n, a, b):
 
 # Linear and Nonlinear Equation Solvers, various GMRES(Generalized Minimum Residual) version
 #  Cf. C.T.Kelley: Iterative Methods for Linear and Nonlinear Equations
-# -------------------------------------------------------------------Y.SONEDA '02.04.13------
 # Solve A*x = b,[k_max: number of iteration]
 def gmres(n, A, x0, b, k_max):
     if k_max == 0 or k_max > n:
